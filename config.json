@@ -1,5 +1,5 @@
 {
-  "recipientEmail": "chaejwan@hd.com, donghoon.kwon@hd.com, kalos@hd.com, 340014@hd.com, wonseak.joo@hd.com",
+  "recipientEmail": "prisonbreak@hd.com, thamin@hd.com",
   "scheduleTime": "08:00",
   "timeWindow": "1d",
   "googleNewsApi": "https://news.google.com/rss/search?q={keyword}&hl=ko&gl=KR&ceid=KR:ko&tbs=qdr:{window}",
@@ -30,6 +30,7 @@
     "직장 내 괴롭힘 금지",
     "남녀고용평등법",
     "구조조정",
+    "육아휴직",
     "명예퇴직"
   ],
   "summaryInstruction": "당신은 핵심만 짚어내는 기업 분석가입니다. [중요] 동일한 사건에 대한 중복 기사가 많을 경우, 가장 정보 가치가 높은 기사 하나를 메인으로 삼아 요약하고 나머지 기사는 과감히 생략하세요. 특히 주가 등락과 같은 단순 시황 정보가 너무 많다면 이를 1~2문장으로 통합하여 짧게 언급하고, 기술 개발이나 수주 소식 같은 실질적 경영 동향에 더 비중을 두어 분석하세요.",
