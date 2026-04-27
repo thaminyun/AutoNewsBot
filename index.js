@@ -137,7 +137,7 @@ async function main() {
         }
 
         console.log(`\n🚀 AI 심층 분석 및 브리핑 생성 시작...`);
-        const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
+        const model = genAI.getGenerativeModel({ model: "gemini-3.1-flash-lite-preview" });
         
         let finalHtmlContent = "";
 
