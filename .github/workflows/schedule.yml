@@ -1,0 +1,35 @@
+name: Daily News Briefing
+
+on:
+  schedule:
+    - cron: '30 22 * * *' # UTC 기준 22:30은 한국시간 07:30입니다.
+  workflow_dispatch: # 이 한 줄이 바로 수동 실행 버튼을 만들어주는 핵심입니다!
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 저장소 코드 가져오기
+      uses: actions/checkout@v4
+    
+    - name: Node.js 설치하기
+      uses: actions/setup-node@v4
+      with:
+        node-version: '24'
+        
+    - name: 라이브러리 설치 (npm install)
+      run: npm install
+      
+    - name: 메인 스크립트 실행
+      env:
+        GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}       # 이 줄을 추가하세요!
+        NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }} # 이 줄을 추가하세요!
+        EMAIL_USER: ${{ secrets.EMAIL_USER }}
+        EMAIL_APP_PASS: ${{ secrets.EMAIL_APP_PASS }}
+        COMPANY_EMAIL: ${{ secrets.COMPANY_EMAIL }}
+      run: node index.js

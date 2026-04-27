@@ -1,0 +1,18 @@
+  "rssSources": [
+    { "name": "매일경제(전체)", "url": "https://www.mk.co.kr/rss/30000001/" },
+    { "name": "매일경제(기업)", "url": "https://www.mk.co.kr/rss/50300009/" },
+    { "name": "조선일보(전체)", "url": "https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml" },
+    { "name": "조선일보(경제)", "url": "https://www.chosun.com/arc/outboundfeeds/rss/category/economy/?outputType=xml" },
+    { "name": "동아일보(전체)", "url": "https://rss.donga.com/total.xml" },
+    { "name": "동아일보(경제)", "url": "https://rss.donga.com/economy.xml" },
+    { "name": "경향신문(전체)", "url": "https://www.khan.co.kr/rss/rssdata/total_news.xml" },
+    { "name": "경향신문(경제)", "url": "https://www.khan.co.kr/rss/rssdata/economy_news.xml" },
+    { "name": "지디넷코리아(IT)", "url": "https://feeds.feedburner.com/zdkorea" },
+    { "name": "전자신문(IT)", "url": "https://rss.etnews.com/Section902.xml" },
+    { "name": "중앙일보(경제)", "url": "https://rss.joins.com/joins_money_list.xml" },
+    { "name": "머니투데이(경제)", "url": "https://rss.mt.co.kr/mt_news.xml" },
+    { "name": "파이낸셜뉴스(경제)", "url": "https://www.fnnews.com/rss/new/fn_realnews_economy.xml" },
+    { "name": "아시아경제(경제)", "url": "https://view.asiae.co.kr/rss/economy.xml" },
+    { "name": "한겨레(경제)", "url": "http://www.hani.co.kr/rss/economy/" },
+    { "name": "연합뉴스(경제)", "url": "https://www.yna.co.kr/rss/economy.xml" }
+  ],
