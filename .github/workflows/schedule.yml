@@ -2,7 +2,7 @@ name: Daily News Briefing
 
 on:
   schedule:
-    - cron: '30 22 * * *' # UTC 기준 22:30은 한국시간 07:30입니다.
+    - cron: '30 01 * * *' # UTC 기준 22:30은 한국시간 07:30입니다.
   workflow_dispatch: # 이 한 줄이 바로 수동 실행 버튼을 만들어주는 핵심입니다!
 
 env:
